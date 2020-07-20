@@ -8,11 +8,14 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"
   },
+  "main": "src/index.js",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "docker:dev": "webpack-dev-server --host 0.0.0.0"
   },
   "eslintConfig": {
     "extends": "react-app"
